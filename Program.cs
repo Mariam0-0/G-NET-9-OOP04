@@ -44,7 +44,7 @@ namespace G_NET_9_OOP04
             // in child classes using the keyword "override", it occurs with inheritance and is resolved during runtime
             // (dynamic binding)
 
-            
+
             #endregion
 
             #region Question 03
@@ -65,6 +65,7 @@ namespace G_NET_9_OOP04
 
             #region Part 02: Practical
 
+            #region Requirments
 
             //Part 02 : Practical(Extending the Movie Ticket Booking System)
             //In the previous assignments, you built a Movie Ticket Booking System with inheritance, properties, and static members.Now you will apply polymorphism to make the system flexible and extensible.
@@ -92,6 +93,42 @@ namespace G_NET_9_OOP04
             //d.Add all tickets to the Cinema and call PrintAllTickets().
             //e.Call ProcessTicket() with one of the tickets.
             //f.Close the Cinema.
+            #endregion
+
+            #region Main
+
+            //Cinema cinema = new Cinema();
+            //Ticket ticket1 = new StandardTicket("Inception", 120, "A-5");
+            //Ticket ticket2 = new VIPTicket("Avengers", 200, true);
+            //Ticket ticket3 = new IMAXTicket("Dune", 180, false);
+            //cinema.AddTicket(ticket1);
+            //cinema.AddTicket(ticket2);
+            //cinema.AddTicket(ticket3);
+
+            //cinema.OpenCinema();
+            //cinema.StartProjector();
+            //Console.WriteLine();
+
+            //Console.WriteLine("========= SetPrice Test =========");
+            //ticket1.SetPrice(150);
+            //Console.WriteLine($"Setting price directly: {ticket1.Price}");
+            //ticket1.SetPrice(100, 1.5m);
+            //Console.WriteLine($"Setting price with multiplier: 100 x 1.5 =  {ticket1.Price}");
+            //Console.WriteLine();
+
+
+
+            //cinema.PrintAllTickets();
+            //Console.WriteLine();
+
+            //Console.WriteLine("========= Process Single Ticket =========");
+            //Cinema.ProcessTicket(ticket2);
+            //Console.WriteLine();
+
+            //cinema.CloseCinema();
+            //cinema.StopProjector();
+            #endregion
+
 
             #endregion
 
