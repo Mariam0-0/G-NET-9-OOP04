@@ -32,7 +32,7 @@ namespace G_NET_9_OOP04
 
             #endregion
 
-            #region Question 01
+            #region Question 02
             // ===========================================================================================
             //Q2 :  What is the difference between method overloading and method overriding?
             // ===========================================================================================
@@ -47,10 +47,17 @@ namespace G_NET_9_OOP04
             
             #endregion
 
-            #region Question 01
+            #region Question 03
             // ===========================================================================================
             //Q3: What keywords are used for Method Overriding? What does each one mean ?
             // ===========================================================================================
+
+            // Virtual => used in the parent class to allow overriding for child classes
+
+            // Override => used in child class to override a virtual method from the parent class
+
+            // New => used in method hiding, it hides the method in base class and creates a new implementation for it,
+            // which is not considered overriding
 
             #endregion
 
