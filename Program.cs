@@ -18,6 +18,18 @@ namespace G_NET_9_OOP04
             //Q1: What is the difference between static binding and dynamic binding? When does each one happen?
             // ===========================================================================================
 
+            // Binding: the process of connecting the a method call to its actual implementation that will run
+
+            // Static binding: means that the method call is resolved at compile time, it is faster and
+            // it's only used when the compiler is 100% sure the method binding will not change
+
+            // Dynamic binding: means the method call is resolved at runtime based on the actual object.
+            // the runtime checks the actual object in memory to decide which method to call, which makes polymorphism work
+
+            // When each one happens?
+            // Static Binding => during compile time
+            // Dynamic Binding => during runtime
+
             #endregion
 
             #region Question 01
@@ -67,7 +79,6 @@ namespace G_NET_9_OOP04
             //f.Close the Cinema.
 
             #endregion
-
 
         }
     }
