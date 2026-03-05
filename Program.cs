@@ -37,6 +37,14 @@ namespace G_NET_9_OOP04
             //Q2 :  What is the difference between method overloading and method overriding?
             // ===========================================================================================
 
+            // Method overloading: is using the same method name but different parameters list,
+            // happens within the same class and it's resolved at compile time (Static binding)
+
+            // Method overriding: is using the same method signature (virtual method) but overriding the implementation
+            // in child classes using the keyword "override", it occurs with inheritance and is resolved during runtime
+            // (dynamic binding)
+
+            
             #endregion
 
             #region Question 01
